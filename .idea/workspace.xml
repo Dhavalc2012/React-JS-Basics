@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4199f9c-47cb-4e5f-8641-19f3e225229e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter3/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -38,8 +39,8 @@
       <file leaf-file-name="SkiDayCount.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="310">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -194,21 +195,21 @@
       <workItem from="1523000203074" duration="9221000" />
       <workItem from="1523021512235" duration="15000" />
       <workItem from="1523089435521" duration="5554000" />
-      <workItem from="1523264078160" duration="2347000" />
+      <workItem from="1523264078160" duration="3778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17137000" />
+    <option name="totallyTimeSpent" value="18568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1366" height="734" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24924242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24924242" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5030303" side_tool="true" visible="true" weight="0.35962147" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5030303" side_tool="true" visible="true" weight="0.35962147" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -474,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -484,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="310">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
