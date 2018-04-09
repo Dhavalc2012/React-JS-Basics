@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4199f9c-47cb-4e5f-8641-19f3e225229e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,14 +36,7 @@
       </file>
       <file leaf-file-name="SkiDayCount.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
@@ -194,12 +186,12 @@
       <workItem from="1523000203074" duration="9221000" />
       <workItem from="1523021512235" duration="15000" />
       <workItem from="1523089435521" duration="5554000" />
-      <workItem from="1523264078160" duration="4976000" />
+      <workItem from="1523264078160" duration="6700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19766000" />
+    <option name="totallyTimeSpent" value="21490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1366" height="734" extended-state="6" />
@@ -483,14 +475,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
