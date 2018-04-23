@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4199f9c-47cb-4e5f-8641-19f3e225229e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-ES6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-createClass.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-ES6.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-ES6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-createClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-createClass.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter3/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/src/index.js" afterDir="false" />
     </list>
@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter3/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -59,11 +59,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkiDayCount.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SkiDayCount.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="60">
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,10 +74,10 @@
       <file leaf-file-name="SkiDayCount-ES6.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-ES6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="960">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +86,8 @@
       <file leaf-file-name="SkiDayCount-createClass.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-createClass.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="120">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -138,8 +141,8 @@
         <option value="$PROJECT_DIR$/Chapter3/src/components/SkiDayList.js" />
         <option value="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-createClass.js" />
         <option value="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-ES6.js" />
-        <option value="$PROJECT_DIR$/Chapter3/src/index.js" />
         <option value="$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js" />
+        <option value="$PROJECT_DIR$/Chapter3/src/index.js" />
       </list>
     </option>
   </component>
@@ -260,12 +263,12 @@
       <workItem from="1524244671959" duration="1085000" />
       <workItem from="1524400077085" duration="614000" />
       <workItem from="1524463916699" duration="829000" />
-      <workItem from="1524466352977" duration="6612000" />
+      <workItem from="1524466352977" duration="8239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35286000" />
+    <option name="totallyTimeSpent" value="36913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1366" height="734" extended-state="6" />
@@ -586,22 +589,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-createClass.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayRow.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding>
             <element signature="e#1#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-createClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-ES6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -620,23 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount-ES6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter3/src/components/SkiDayCount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
         </state>
       </provider>
     </entry>
