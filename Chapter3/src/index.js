@@ -5,7 +5,6 @@ import {SkiDayRow} from "./components/SkiDayRow";
 import {SkiDayCount} from "./components/SkiDayCount";
 window.React = React;
 
-/*
 render(
 	<SkiDayList days={
 		[
@@ -36,9 +35,9 @@ render(
 		]
 	}/>,
 	document.getElementById('react-container')
-)*/
+)
 
-render(
+/*render(
     <SkiDayCount/>,
     document.getElementById('react-container')
-)
+)*/

@@ -5,40 +5,42 @@ import Calendar from 'react-icons/lib/fa/calendar'
 import {PropTypes} from "react";
 
 const percentToDecimal = (decimal) => {
-	return ((decimal * 100) + '%')
+    return ((decimal * 100) + '%')
 }
 
 const calcGoalProgress = (total, goal) => {
-	return percentToDecimal(total/goal)
+    return percentToDecimal(total / goal)
 }
 
-export const SkiDayCount = ({total=70, powder=20, 
-							backcountry=10, goal=100}) => (
-		<div className="ski-day-count">
-			<div className="total-days">
-				<span>{total}</span>
-					<Calendar />
-				<span>days</span>
-			</div>
-			<div className="powder-days">
-				<span>{powder}</span>
-					<SnowFlake />
-				<span>days</span>
-			</div>
-			<div className="backcountry-days">
-				<span>{backcountry}</span>
-					<Terrain />
-				<span>days</span>
-			</div>
-			<div>
+export const SkiDayCount = ({
+                                total = 70, powder = 20,
+                                backcountry = 10, goal = 100
+                            }) => (
+    <div className="ski-day-count">
+        <div className="total-days">
+            <span>{total}</span>
+            <Calendar/>
+            <span>days</span>
+        </div>
+        <div className="powder-days">
+            <span>{powder}</span>
+            <SnowFlake/>
+            <span>days</span>
+        </div>
+        <div className="backcountry-days">
+            <span>{backcountry}</span>
+            <Terrain/>
+            <span>days</span>
+        </div>
+        <div>
 				<span>
 					{calcGoalProgress(
-						total, 
-						goal
-					)}
+                        total,
+                        goal
+                    )}
 				</span>
-			</div>
-		</div>
+        </div>
+    </div>
 )
 /*SkiDayCount.defaultProps = {
     total : 50,
@@ -47,7 +49,8 @@ export const SkiDayCount = ({total=70, powder=20,
     goal: 75
 }*/
 SkiDayCount.propTypes = {
-    total : PropTypes.number,
-    powder : PropTypes.number,
-    backcountry: PropTypes.number
+    total: PropTypes.number,
+    powder: PropTypes.number,
+    backcountry: PropTypes.number,
+    goal: PropTypes.number
 }
