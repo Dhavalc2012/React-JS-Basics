@@ -4,11 +4,17 @@ import { SkiDayList} from "./components/SkiDayList";
 import {SkiDayRow} from "./components/SkiDayRow";
 import {SkiDayCount} from "./components/SkiDayCount";
 import {App} from "./components/app";
+import {Route,Router,hashHistory} from 'react-router';
+import {Whoops404} from "./components/Whoops404";
 
 window.React = React;
 
 render(
-	<App/>,
+	<Router history={hashHistory}>
+		<Route path="/" component={App} />
+		<Route path="*" component={Whoops404} />
+
+	</Router>,
 	document.getElementById('react-container')
 )
 
