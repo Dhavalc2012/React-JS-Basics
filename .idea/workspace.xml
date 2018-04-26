@@ -28,8 +28,8 @@
       <file leaf-file-name="AddDayForm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter3/src/components/AddDayForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+            <state relative-caret-position="75">
+              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -274,12 +274,12 @@
       <workItem from="1524463916699" duration="829000" />
       <workItem from="1524466352977" duration="12832000" />
       <workItem from="1524564842750" duration="7363000" />
-      <workItem from="1524723368392" duration="4708000" />
+      <workItem from="1524723368392" duration="6252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53577000" />
+    <option name="totallyTimeSpent" value="55121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1366" height="734" extended-state="6" />
@@ -335,7 +335,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -652,8 +652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter3/src/components/AddDayForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+        <state relative-caret-position="75">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
