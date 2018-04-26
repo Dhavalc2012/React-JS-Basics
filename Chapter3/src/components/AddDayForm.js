@@ -1,13 +1,20 @@
-import {PropTypes , Component} from 'react'
+import {PropTypes } from 'react'
 
-export const AddDayForm = ({ resort, date, powder,backcountry}) => {
+export const AddDayForm = ({ resort, date, powder,backcountry,onNewDay}) => {
     let _resort,_date,_powder,_backcountry;
     const submit = (e) => {
         e.preventDefault();
-        console.log(_resort.value);
-        console.log(_date.value);
-        console.log(_powder.checked);
-        console.log(_backcountry.checked);
+        onNewDay({
+            resort : _resort.value,
+            date: _date.value,
+            powder : _powder.checked,
+            backcountry: _backcountry.checked
+        })
+        _resort.value = "";
+        _date.value = "";
+        _powder.checked = false;
+        _backcountry.checked = false;
+
     }
     return  (
         <form onSubmit={submit} className="add-day-form">
