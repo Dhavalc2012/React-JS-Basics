@@ -1,44 +1,37 @@
 import {PropTypes , Component} from 'react'
 
-export class AddDayForm extends Component{
-constructor(props){
-    super(props)
-    this.submit = this.submit.bind(this)
-}
-
-    submit(e){
+export const AddDayForm = ({ resort, date, powder,backcountry}) => {
+    let _resort,_date,_powder,_backcountry;
+    const submit = (e) => {
         e.preventDefault();
-        console.log(this.refs.resort.value);
-        console.log(this.refs.date.value);
-        console.log(this.refs.powder);
-        console.log(this.refs.backcountry);
+        console.log(_resort.value);
+        console.log(_date.value);
+        console.log(_powder.checked);
+        console.log(_backcountry.checked);
     }
-
-    render(){
-        const { resort, date, powder,backcountry} = this.props
-        return  (
-        <form onSubmit={this.submit} className="add-day-form">
+    return  (
+        <form onSubmit={submit} className="add-day-form">
             <label htmlFor="resort">Resort Name</label>
-            <input id="resort" type="text" defaultValue={resort} ref="resort" required />
+            <input id="resort" type="text" defaultValue={resort} ref={input => _resort = input} required />
 
             <label htmlFor="date">Date</label>
-            <input id="date" type="date" required defaultValue={date} ref="date" />
+            <input id="date" type="date" required defaultValue={date}  ref={input => _date = input} />
 
             <div>
-            <input id="powder"  defaultChecked={powder} type="checkbox" ref="powder"  />
+                <input id="powder"  defaultChecked={powder} type="checkbox" ref={input => _powder = input}  />
                 <label htmlFor="powder"  >Powder Day</label>
             </div>
 
             <div>
-            <input id="backcountry" type="checkbox" ref="backcountry"  defaultChecked={backcountry}  />
+                <input id="backcountry" type="checkbox" ref={input => _backcountry = input}  defaultChecked={backcountry}  />
                 <label htmlFor="backcountry" >BackCountry Day</label>
             </div>
             <button>Add Day</button>
         </form>
 
-        )
-    }
+    )
 }
+
 
 AddDayForm.defaultProps = {
     resort : 'Kirkwood',
